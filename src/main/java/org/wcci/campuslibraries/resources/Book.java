@@ -8,7 +8,6 @@ import java.util.Set;
 @Entity
 public class Book {
     @ManyToOne
-    @JsonIgnore
     private Campus campus;
     private String title;
     @Lob
